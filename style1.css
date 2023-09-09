@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #183b56;
+    --secondary-color: #577592;
+    --additional-color: #2294ed;
+}
+
+body{
+    color: var(--primary-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.hover-link:hover{
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+.hover-link:active{
+    color:red;
+}
+.flex{
+    display: flex;
+}
+
+#topBar{
+    height: 100px;
+    width: 100%;
+    background-color: #9fc1d9;;
+    float: left;
+    position:fixed;
+    
+}
+#logopic{
+    height: 90px;
+    width: 90px;
+    border-radius: 5px;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 20%;
+    
+    float: left;
+    
+}
+#navbar{
+    display: flex;
+    justify-content:space-around;
+    height: 30Px;
+    width:80%;
+    padding-top: 70px;
+    
+}
+.navigations{
+    border-bottom: 1.5px solid white;
+
+    font-weight: bold;
+}   
+
+#breakingNews{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 60px;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    border-top: 3px solid rgb(94, 94, 224);
+    border-bottom: 3px solid rgb(94, 94, 224);
+    margin-top: 100px;
+    margin-bottom: 4px;
+    float: left;
+    position: fixed;
+
+}
+ 
+
+#news-section{
+    float: left;
+    height: 100%;
+    width: 100%;
+    margin-top: 160px;
+    height: 100vh;
+    margin-top: 170px;
+    
+}
+#latest-news{
+    height: auto;
+    width: 25%;
+    
+    float: left;
+}
+#heading-katestnews{
+    display: inline-block;
+}
+#headlines-div{
+    height: auto;
+    width:50%;
+    border-right: 1.5 solid grey;
+    float: left;
+    border-right: 1.5px solid grey;
+    border-left: 1.5px solid grey;
+    padding: 5px;
+}
+
+#most-popular{
+    height:auto;
+    width:25%;
+    
+    float: left;
+}
+.headings{
+    font-size: 22px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+.container{
+    display:inline-block;
+    text-align: center;
+    justify-content:center;
+    
+}
+.cards-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    
+}
+#news-img{
+    height: fit-content;
+    width: 60%;
+    border-radius: 5px;
+    
+}
+
+
+
+
+
