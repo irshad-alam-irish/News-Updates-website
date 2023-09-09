@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div>
+       <div id="topBar">
+           <a href="#"><div id="logo"><img id="logopic" src="./files/Colorful Live News Free Logo.png" alt="NEWS"></div></a>
+           
+           <div id="navbar">
+               <div class="hover-link"><span class="navigations" id="ipl" onclick="onNavItemClick('ipl')">IPL</span></div>
+               <div class="hover-link"><span class="navigations"id="education" onclick="onNavItemClick('education')">EDUCATION</span></div>
+               <div class="hover-link"><span class="navigations" id="politics" onclick="onNavItemClick('politics')">POLITICS</span></div>
+               <div class="hover-link"><span class="navigations" id="jobs" onclick="onNavItemClick('jobs')">JOBS</span></div>
+               <div class="hover-link"><span class="navigations" id="bollywood" onclick="onNavItemClick('ipl')">BOLLYWOOD</span></div>
+           </div>
+           <!-- breaking bar -->
+        </div> 
+        <div id="breakingNews" >BREAKING NEWS</div>
+        
+
+       <!-- news sections -->
+       
+       <div id="news-section">
+           <div id="latest-news" class="container flex news-cards">
+                <div>
+                    <div><h3 class="headings">Latest News</h3></div>
+                <main>
+                    <div id="latest-div" class="container flex news-cards">
+                        <!-- <h3 class="headings">Headlines</h3> -->
+                      
+                        
+        
+        
+                       </div>      
+        
+                </main>
+                 </div>
+
+                   <template id="template-news-card-latest-news">
+             
+                    <div id="heading-cards" class="cards">
+                        <div class="cards-header">
+                            <img src="https://via.placeholder.com/300x150" alt="news-img" id="news-img">
+                        </div>
+                        <div class="card-content">
+                            <h3 id="news-title">This is the Title</h3>
+                            <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+                            <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+                        </div>
+                    </div>
+        
+                   </template>
+
+           </div>
+            
+           <main>
+            <div id="headlines-div" class="container flex news-cards">
+                <!-- <h3 class="headings">Headlines</h3> -->
+              
+                
+
+
+               </div>      
+
+           </main>
+           
+           <template id="template-news-card">
+             
+            <div id="heading-cards" class="cards">
+                <div class="cards-header">
+                    <img src="https://via.placeholder.com/300x150" alt="news-img" id="news-img">
+                </div>
+                <div class="card-content">
+                    <h3 id="news-title">This is the Title</h3>
+                    <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+                    <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+                </div>
+            </div>
+
+           </template>
+    
+
+           <div id="most-popular" class="container flex news-cards">
+            <h3 class="headings">Most Popular</h3>
+           </div>
+       </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
